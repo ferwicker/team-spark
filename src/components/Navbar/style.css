@@ -1,0 +1,21 @@
+nav a{
+    color: #00384c;
+}
+
+.navbar {
+    font-size: 18px;
+    padding: 20px;
+}
+
+.navbar-brand {
+    max-width: 150px;
+}
+
+.nav-link:hover {
+    color: #d60756;
+    transition: all .3s;
+}
+
+.nav-link:active {
+    color: #d60756;
+}

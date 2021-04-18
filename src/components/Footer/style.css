@@ -1,0 +1,25 @@
+.footer {
+    min-height: 40px;
+    background: #00384c;
+    color: white;
+    padding: 15px;
+    position: relative;
+    text-align: center;
+  }
+  
+  .footer span {
+    padding: 3px;
+  }
+
+  footer a {
+      color: white;
+  }
+
+  footer a:visited {
+    color: white;
+  }
+
+  footer a:hover {
+      color: #f7c97f;
+  }
+  
