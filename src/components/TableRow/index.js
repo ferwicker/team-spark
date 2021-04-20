@@ -3,7 +3,7 @@ import "./style.css";
 
 function TableRow(props){
 
-    return props.users.map((user, index) => (
+    return props.visible.map((user, index) => (
         <tr className='table-row' key={index}>
             <td className='align-middle border-bottom'>{user.name.first}</td>
             <td className='align-middle border-bottom'>{user.name.last}</td>

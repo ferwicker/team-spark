@@ -1,0 +1,48 @@
+h1 {
+    font-weight: bold;
+    color: #00384C;
+}
+
+.about-image {
+    width: 100%;
+}
+
+p {
+    font-size: 20px;
+}
+
+.accordion {
+    margin-top: 30px;
+    width: 100%;
+}
+
+.accordion-button {
+    background-color: #dce7ee;
+    border: none;
+    border-radius: 10px;
+    color: #00384C;
+    font-size: 24px;
+    width: 100%;
+    padding: 20px;
+    text-align: left;
+}
+
+.accordion-body {
+    background-color: #eff4f7;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    padding: 20px;
+}
+
+.accordion-body a {
+    color: #D60756;
+}
+
+.accordion-body a:hover {
+    color: #F98512;
+    transition: ease .2s all;
+}
+
+.fa-chevron-down {
+    margin-left: 20px;
+}

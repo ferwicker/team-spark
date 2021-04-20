@@ -15,3 +15,18 @@
     font-weight: bold;
     padding: 0;
 }
+
+.clear-btn {
+    border: none;
+    color: white;
+    background-color: #D60756;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 4px 20px;
+}
+
+.clear-btn:hover {
+    background-color: #00384C;
+    transition: ease .2s all;
+}
