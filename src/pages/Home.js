@@ -4,7 +4,8 @@ import Row from "../components/Row";
 import Col from "../components/Col";
 import Search from "../components/Search";
 import API from '../utils/API';
-import EmployeeCard from '../components/EmployeeCard'
+import EmployeeCard from '../components/EmployeeCard';
+import Table from '../components/Table';
 
 function Home () {
     const [user, setUser] = useState({});
@@ -20,6 +21,7 @@ function Home () {
           .then(res => {
             setUsers(res.data.results);
             setUser(res.data.results[0]);
+            console.log(users)
             console.log(user)
         }).catch(err => console.log(err));
       };
@@ -34,18 +36,18 @@ function Home () {
             </Row>
             <Row>
                 <Col size="md-8">
-                    table goes here
+                    {user && <Table users={users}/>}
                 </Col>
                 <Col size="md-4">
-                    <EmployeeCard 
-                    firstName={user.name.first}
-                    lastName={user.name.last}
-                    city={user.location.city}
+                    {user && <EmployeeCard 
+                    firstName={user.name?.first}
+                    lastName={user.name?.last}
+                    city={user.location?.city}
                     phone={user.phone}
                     mobile={user.cell}
                     email={user.email}
-                    image={user.picture.large}
-                    dob={user.dob.date}/>
+                    image={user.picture?.large}
+                    dob={user.dob?.date}/>}
                 </Col>
             </Row>
         </Container>

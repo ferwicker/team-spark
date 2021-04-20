@@ -1,0 +1,9 @@
+.table-wrapper {
+    border: solid 3px #00384C;
+    border-radius: 20px;
+    font-size: 14px;
+}
+
+.sort {
+    margin-left: 5px;
+}

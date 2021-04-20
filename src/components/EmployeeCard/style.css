@@ -1,9 +1,11 @@
 .employee-card {
     border-radius: 20px;
     border: #D60756 solid 3px;
-    padding: 20px;
+    padding: 20px 20px 40px 20px;
     width: 100%;
-    min-height: 50vh;
+    min-height: 60vh;
+    position: sticky;
+    top: 50px;
 }
 
 .employee-image {
@@ -14,7 +16,7 @@
 }
 
 .employee-name {
-    font-size: 18px;
+    font-size: 20px;
     font-weight: bold;
     color: #D60756;
     margin-bottom: 0;
