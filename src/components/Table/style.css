@@ -6,4 +6,12 @@
 
 .sort {
     margin-left: 5px;
+    cursor: pointer;
+}
+
+.btn-sort {
+    background-color: white;
+    border: none;
+    font-weight: bold;
+    padding: 0;
 }

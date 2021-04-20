@@ -21,8 +21,6 @@ function Home () {
           .then(res => {
             setUsers(res.data.results);
             setUser(res.data.results[0]);
-            console.log(users)
-            console.log(user)
         }).catch(err => console.log(err));
       };
 
@@ -31,6 +29,30 @@ function Home () {
         const value = e.target.value;
         setUser(users[value]);
       };
+
+    const handleSort = (e) => {
+        e.preventDefault();
+        const sortValue = e.target.value;
+        
+        function compare(a, b) {
+            // Use toUpperCase() to ignore character casing
+            const nameA = a.name[sortValue].toUpperCase();
+            const nameB = b.name[sortValue].toUpperCase();
+          
+            let comparison = 0;
+            if (nameA > nameB) {
+              comparison = 1;
+            } else if (nameA < nameB) {
+              comparison = -1;
+            }
+            return comparison;
+          }
+          
+          const sorted = users.sort(compare);
+
+        setUsers(sorted);
+        console.log(users)
+    }
     
 
     return (
@@ -42,9 +64,10 @@ function Home () {
             </Row>
             <Row>
                 <Col size="md-8">
-                    {user && <Table 
+                    {users && <Table 
                     users={users}
                     handleViewClick={handleViewClick}
+                    handleSort={handleSort}
                     />}
                 </Col>
                 <Col size="md-4">
