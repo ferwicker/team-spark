@@ -25,6 +25,12 @@ function Home () {
             console.log(user)
         }).catch(err => console.log(err));
       };
+
+      const handleViewClick = (e) => {
+        e.preventDefault();
+        const value = e.target.value;
+        setUser(users[value]);
+      };
     
 
     return (
@@ -36,7 +42,10 @@ function Home () {
             </Row>
             <Row>
                 <Col size="md-8">
-                    {user && <Table users={users}/>}
+                    {user && <Table 
+                    users={users}
+                    handleViewClick={handleViewClick}
+                    />}
                 </Col>
                 <Col size="md-4">
                     {user && <EmployeeCard 
@@ -47,7 +56,8 @@ function Home () {
                     mobile={user.cell}
                     email={user.email}
                     image={user.picture?.large}
-                    dob={user.dob?.date}/>}
+                    dob={user.dob?.date}
+                    />}
                 </Col>
             </Row>
         </Container>
