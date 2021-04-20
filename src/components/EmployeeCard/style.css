@@ -1,0 +1,30 @@
+.employee-card {
+    border-radius: 20px;
+    border: #D60756 solid 3px;
+    padding: 20px;
+    width: 100%;
+    min-height: 50vh;
+}
+
+.employee-image {
+    width: 200px;
+    border-radius: 50%;
+    border: #00384C solid 3px;
+    margin: 20px 0;
+}
+
+.employee-name {
+    font-size: 18px;
+    font-weight: bold;
+    color: #D60756;
+    margin-bottom: 0;
+}
+
+.employee-location {
+    color: #00384C;
+    font-size: 18px;
+}
+
+.employee-email{
+    color: #00384C;
+}
