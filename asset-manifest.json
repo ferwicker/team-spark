@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/team-spark/static/css/main.35882505.chunk.css",
-    "main.js": "/team-spark/static/js/main.8fbcb515.chunk.js",
-    "main.js.map": "/team-spark/static/js/main.8fbcb515.chunk.js.map",
+    "main.js": "/team-spark/static/js/main.90abced4.chunk.js",
+    "main.js.map": "/team-spark/static/js/main.90abced4.chunk.js.map",
     "runtime-main.js": "/team-spark/static/js/runtime-main.4c255a91.js",
     "runtime-main.js.map": "/team-spark/static/js/runtime-main.4c255a91.js.map",
     "static/css/2.4c97ca4f.chunk.css": "/team-spark/static/css/2.4c97ca4f.chunk.css",
@@ -21,6 +21,6 @@
     "static/css/2.4c97ca4f.chunk.css",
     "static/js/2.ba1849f8.chunk.js",
     "static/css/main.35882505.chunk.css",
-    "static/js/main.8fbcb515.chunk.js"
+    "static/js/main.90abced4.chunk.js"
   ]
 }
