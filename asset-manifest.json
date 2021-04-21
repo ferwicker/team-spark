@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/team-spark/static/css/main.35882505.chunk.css",
+    "main.js": "/team-spark/static/js/main.8fbcb515.chunk.js",
+    "main.js.map": "/team-spark/static/js/main.8fbcb515.chunk.js.map",
+    "runtime-main.js": "/team-spark/static/js/runtime-main.4c255a91.js",
+    "runtime-main.js.map": "/team-spark/static/js/runtime-main.4c255a91.js.map",
+    "static/css/2.4c97ca4f.chunk.css": "/team-spark/static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.ba1849f8.chunk.js": "/team-spark/static/js/2.ba1849f8.chunk.js",
+    "static/js/2.ba1849f8.chunk.js.map": "/team-spark/static/js/2.ba1849f8.chunk.js.map",
+    "index.html": "/team-spark/index.html",
+    "static/css/2.4c97ca4f.chunk.css.map": "/team-spark/static/css/2.4c97ca4f.chunk.css.map",
+    "static/css/main.35882505.chunk.css.map": "/team-spark/static/css/main.35882505.chunk.css.map",
+    "static/js/2.ba1849f8.chunk.js.LICENSE.txt": "/team-spark/static/js/2.ba1849f8.chunk.js.LICENSE.txt",
+    "static/media/team-illustration.6356c1de.png": "/team-spark/static/media/team-illustration.6356c1de.png",
+    "static/media/teamspark-help.f423581d.png": "/team-spark/static/media/teamspark-help.f423581d.png",
+    "static/media/teamspark-logo.900cbe16.png": "/team-spark/static/media/teamspark-logo.900cbe16.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4c255a91.js",
+    "static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.ba1849f8.chunk.js",
+    "static/css/main.35882505.chunk.css",
+    "static/js/main.8fbcb515.chunk.js"
+  ]
+}
