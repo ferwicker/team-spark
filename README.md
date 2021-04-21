@@ -1,5 +1,5 @@
 # TeamSpark⚡
-This full stack web application uses a remote server and database to manage a list of burgers submitted by users. The users can interact with the front end to create new items in the database and update existing items.
+TeamSpark is a React web application that uses an API to generate a set of users and displays them in a table that can be sorted and searched, and each user's details can be viewed in the side panel.
 [See deployed application.](http://ferwicker.com/team-spark/)
 [See project page on my portfolio.](http://ferwicker.com/projects/team-spark/)
 
