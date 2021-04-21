@@ -14,9 +14,9 @@ function App() {
       <div>
         <Wrapper>
           <Navbar />
-          <Route exact path="/" component={Home} />
-          <Route exact path="/about" component={About} />
-          <Route exact path="/help" component={Help} />
+          <Route exact path="/team-spark" component={Home} />
+          <Route exact path="/team-spark/about" component={About} />
+          <Route exact path="/team-spark/help" component={Help} />
         </Wrapper>
         <Footer />
       </div>
