@@ -3,7 +3,7 @@ This full stack web application uses a remote server and database to manage a li
 [See deployed application.](http://ferwicker.com/team-spark/)
 [See project page on my portfolio.](http://ferwicker.com/projects/team-spark/)
 
-<img src='./readme-assets/teamspark-help.png' style='width: 300px; margin: 40px 0;'>
+<img src='./readme-assets/teamspark-help.png' style='max-width: 300px; margin: 40px 0;'>
 
  # Table of contents
  - [Motivation](#motivation)
